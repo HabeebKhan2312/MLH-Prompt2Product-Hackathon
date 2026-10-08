@@ -1,0 +1,12 @@
+UX changes:
+- change the theme from dark blue to a Green-Dark Green-White Theme in 70-20-10 ratio
+- Remove ALL emojis
+- Beneath the title, 'Croppie', add a subtitle, 'Your crop's personal AI assistant '
+- align the title to center with a slightly bigger flashier font
+- merge the AI Diagnostic section with the highlighted image section, first comes highlighted image, below that 'area of the crop affected', then our diagnostic, then the severity
+
+
+Changes to the OpenCV mechanism:
+- remove 'original image' and 'green outline masked image'
+- The title computer vision analysis is not need, everything is a part of the diagnostic
+- Instead of showing pixels, display 'Area of the crop affected' and 'Estimated Severity'
